@@ -26,11 +26,11 @@ dependencies = [
     "toml",
     "boto3",
     "netCDF4",
-    "cht_utils",
+    "cht_utils@ git+https://github.com/jprsco/cht_utils-before_hmt.git",
     "contextily",
     "rasterio",
     "rioxarray",
-    "cht_bathymetry"
+    "cht_bathymetry@ git+https://github.com/jprsco/cht_bathymetry_ssph.git"
 ]
 
 [project.optional-dependencies] # extra dependencies for additional functionality, will be part of the published package
