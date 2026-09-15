@@ -2,6 +2,9 @@
 requires = ["hatchling>=1.24.2"]
 build-backend = "hatchling.build"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "cht_tiling"
 description = "CHT Tiling is a package to create and use slippy tiles (xyz)"
